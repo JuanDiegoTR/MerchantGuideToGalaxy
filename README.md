@@ -76,3 +76,10 @@ El valor en números romanos es: XX. El valor en créditos es: 10
 ## Requisitos
 - **Java JDK 17 o superior.
 - **IDE Itellij.
+
+## Comando
+Para generar el archivo JAR del proyecto, ejecuta el siguiente comando en la terminal o símbolo del sistema:
+```bash
+mvn clean install
+Para correr las pruebas Unitarias:
+mvn test
